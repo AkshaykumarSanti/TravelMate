@@ -21,10 +21,7 @@ TravelMate is a full-stack travel planning web application developed using Djang
 
 # 🌐 Live Demo
 
-🚧 Coming Soon (Render Deployment)
-
-**GitHub Repository:**  
-https://github.com/AkshaykumarSanti/TravelMate
+🔗 https://travelmate-tnvp.onrender.com
 
 ---
 
