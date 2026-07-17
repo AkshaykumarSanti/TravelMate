@@ -1,12 +1,13 @@
 # ✈️ TravelMate
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Django-5.x-092E20?style=for-the-badge&logo=django&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Python-3.x-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Django-3.1-092E20?style=for-the-badge&logo=django&logoColor=white"/>
   <img src="https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white"/>
-  <img src="https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
-  <img src="https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
+  <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge"/>
 </p>
 
 <h3 align="center">
@@ -14,54 +15,82 @@
 </h3>
 
 <p align="center">
-TravelMate is a responsive full-stack travel planning web application built with Django that enables users to explore destinations, discover hotels & villas, organize itineraries, and manage travel plans through a clean, intuitive, and responsive interface.
+TravelMate is a full-stack travel planning web application developed using Django. It enables users to register, log in securely, explore destinations, browse hotels and villas, and manage travel plans through a clean, responsive, and user-friendly interface.
 </p>
+
+---
+
+# 🌐 Live Demo
+
+🚧 Coming Soon (Render Deployment)
+
+**GitHub Repository:**  
+https://github.com/AkshaykumarSanti/TravelMate
 
 ---
 
 # 📚 Table of Contents
 
-* [📌 Features](#-features)
-* [🛠️ Tech Stack](#️-tech-stack)
-* [📸 Project Preview](#-project-preview)
-* [🏗️ Architecture](#️-architecture)
-* [📂 Project Structure](#-project-structure)
-* [⚙️ Installation](#️-installation)
-* [🚀 Future Improvements](#-future-improvements)
-* [📚 Learning Outcomes](#-learning-outcomes)
-* [👨‍💻 About the Developer](#-about-the-developer)
+- Features
+- Tech Stack
+- Technical Highlights
+- Project Preview
+- Architecture
+- Application Workflow
+- Project Structure
+- Installation
+- Future Enhancements
+- Learning Outcomes
+- About the Developer
+- License
 
 ---
 
 # 📌 Features
 
-* 🔐 Secure User Authentication
-* 🧳 Personalized Travel Dashboard
-* 🏨 Browse Hotels & Villas
-* 🌍 Explore Popular Destinations
-* 📅 Plan & Manage Trips
-* 📍 Domestic & International Locations
-* 🔍 Intuitive Navigation & Clean UI
-* 📱 Fully Responsive Design
-* ⚡ Efficient Database Operations using Django ORM
+- 🔐 User Registration & Login
+- 🔒 Django Session Authentication
+- 🏨 Browse Hotels & Villas
+- 🌍 Explore Tourist Destinations
+- ✈️ Plan and Manage Trips
+- 📋 Personalized User Dashboard
+- 📱 Responsive User Interface
+- ⚡ CRUD Operations using Django ORM
+- 🗄️ SQLite Database Integration
+- 🎯 Clean Navigation & User Experience
 
 ---
 
 # 🛠️ Tech Stack
 
-| Category            | Technologies            |
-| ------------------- | ----------------------- |
-| **Backend**         | Python, Django          |
-| **Database**        | SQLite3                 |
-| **ORM**             | Django ORM              |
-| **Frontend**        | HTML5, CSS3, JavaScript |
-| **Version Control** | Git & GitHub            |
+| Category | Technologies |
+|----------|--------------|
+| Backend | Python, Django |
+| Frontend | HTML5, CSS3, JavaScript |
+| Database | SQLite3 |
+| ORM | Django ORM |
+| Version Control | Git & GitHub |
+
+---
+
+# 🚀 Technical Highlights
+
+- Django Authentication System
+- Session Management
+- CRUD Operations
+- Django ORM
+- URL Routing
+- Template Rendering
+- Static File Management
+- Responsive Web Design
+- MVC (MVT) Architecture
+- SQLite Database Integration
 
 ---
 
 # 📸 Project Preview
 
-## 🏠 Home Dashboard
+## 🏠 Home Page
 
 <p align="center">
 <img src="screenshots/home-dashboard.png" width="900">
@@ -71,21 +100,13 @@ TravelMate is a responsive full-stack travel planning web application built with
 
 ## 🔐 Authentication
 
-<table>
-<tr>
-<td width="50%">
-<img src="screenshots/signup.png">
-</td>
-
-<td width="50%">
-<img src="screenshots/login.png">
-</td>
-</tr>
-</table>
+| Sign Up | Login |
+|----------|--------|
+| <img src="screenshots/signup.png"> | <img src="screenshots/login.png"> |
 
 ---
 
-## 🌍 Explore Destinations
+## 🌍 Destinations
 
 <p align="center">
 <img src="screenshots/destinations.png" width="900">
@@ -101,58 +122,71 @@ TravelMate is a responsive full-stack travel planning web application built with
 
 ---
 
-## ✈️ Ticket Booking Dashboard
+## 📋 Dashboard
 
-<table>
-<tr>
-<td width="33%">
-<img src="screenshots/dashboard-1.png">
-</td>
-
-<td width="33%">
-<img src="screenshots/dashboard-2.png">
-</td>
-
-<td width="33%">
-<img src="screenshots/dashboard-3.png">
-</td>
-</tr>
-</table>
+<p align="center">
+<img src="screenshots/dashboard-1.png" width="280">
+<img src="screenshots/dashboard-2.png" width="280">
+<img src="screenshots/dashboard-3.png" width="280">
+</p>
 
 ---
 
 # 🏗️ Architecture
 
 ```text
-                 User
-                  │
-                  ▼
-        Web Browser (Client)
-                  │
-                  ▼
-      HTML • CSS • JavaScript
-                  │
-                  ▼
-          Django URL Routing
-                  │
-                  ▼
-          Django Views (Logic)
-                  │
-                  ▼
-            Django ORM
-                  │
-                  ▼
-          SQLite Database
+User
+   │
+   ▼
+Browser
+   │
+   ▼
+HTML • CSS • JavaScript
+   │
+   ▼
+Django URL Dispatcher
+   │
+   ▼
+Views
+   │
+   ▼
+Django ORM
+   │
+   ▼
+SQLite Database
 ```
 
-### Application Flow
+---
 
-1. Users register or log in securely.
-2. Browse destinations, hotels, and villas.
-3. Plan and organize travel itineraries.
-4. Manage travel details through a personalized dashboard.
-5. Django processes requests and retrieves data using the ORM.
-6. The updated information is rendered dynamically on the frontend.
+# 🔄 Application Workflow
+
+```text
+Register
+      │
+      ▼
+User Details Stored
+      │
+      ▼
+Login
+      │
+      ▼
+Django Authentication
+      │
+      ▼
+Session Created
+      │
+      ▼
+Access Dashboard
+      │
+      ▼
+Browse Destinations
+      │
+      ▼
+Manage Travel Plans
+      │
+      ▼
+Logout
+```
 
 ---
 
@@ -161,69 +195,71 @@ TravelMate is a responsive full-stack travel planning web application built with
 ```text
 TravelMate/
 │
-├── TravelMate/
-├── planner/
-├── templates/
+├── accounts/
 ├── static/
-│   ├── css/
-│   ├── js/
-│   └── images/
-│
-├── db.sqlite3
+├── templates/
+├── travel/
+├── tripplanner/
+├── .gitignore
 ├── manage.py
-├── requirements.txt
-└── README.md
+├── README.md
+└── requirements.txt
 ```
 
 ---
 
 # ⚙️ Installation
 
-### Clone Repository
+Clone the repository
 
 ```bash
 git clone https://github.com/AkshaykumarSanti/TravelMate.git
 ```
 
-### Move into Project
+Move into the project directory
 
 ```bash
 cd TravelMate
 ```
 
-### Create Virtual Environment
+Create virtual environment
 
 ```bash
 python -m venv venv
 ```
 
-### Activate Virtual Environment
-
-**Windows**
+Activate virtual environment (Windows)
 
 ```bash
 venv\Scripts\activate
 ```
 
-### Install Dependencies
+Install dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### Apply Migrations
+Apply migrations
 
 ```bash
+python manage.py makemigrations
 python manage.py migrate
 ```
 
-### Run the Development Server
+Create admin user (optional)
+
+```bash
+python manage.py createsuperuser
+```
+
+Run server
 
 ```bash
 python manage.py runserver
 ```
 
-Open your browser and visit:
+Open
 
 ```text
 http://127.0.0.1:8000/
@@ -231,60 +267,72 @@ http://127.0.0.1:8000/
 
 ---
 
-# 🚀 Future Improvements
+# 🚀 Future Enhancements
 
-* ❤️ Wishlist / Favorites
-* 💳 Online Booking Integration
-* 🗺️ Google Maps API
-* 🌦️ Weather Forecast
-* ⭐ Reviews & Ratings
-* 📱 Progressive Web App (PWA)
-* 📧 Email Notifications
+- Google Maps Integration
+- Weather API
+- Online Booking
+- Payment Gateway
+- Email Notifications
+- Wishlist
+- Reviews & Ratings
+- Progressive Web App (PWA)
 
 ---
 
 # 📚 Learning Outcomes
 
-Through this project, I gained hands-on experience in:
+Through this project, I gained practical experience in:
 
-* Django Project Architecture
-* Django ORM & Database Design
-* Authentication & User Management
-* CRUD Operations
-* Template Rendering
-* Responsive Frontend Development
-* Static File Management
-* Git & GitHub Workflow
-* Building Full-Stack Web Applications
+- Django Project Architecture
+- Django Authentication
+- Session Management
+- CRUD Operations
+- Django ORM
+- URL Routing
+- Template Inheritance
+- Static File Management
+- SQLite Database
+- Responsive Frontend Development
+- Git & GitHub Version Control
 
 ---
 
 # 👨‍💻 About the Developer
 
-### **Akshaykumar Santi**
+## Akshaykumar Santi
 
-🎓 Computer Science Graduate (CGPA: **9.15**)
+🎓 Bachelor of Engineering (Computer Science & Engineering)
 
-💻 Aspiring Software Developer passionate about building scalable and user-friendly web applications.
+🎯 CGPA: **9.15**
 
-🛠️ **Core Skills**
+💻 Aspiring Software Developer passionate about Python, Django, SQL, and Full-Stack Web Development.
 
-* Python
-* Django
-* SQL
-* HTML5
-* CSS3
-* JavaScript
-* Git & GitHub
+### Technical Skills
 
-🚀 Currently focused on strengthening my Full-Stack Development and Data Structures & Algorithms skills by building real-world projects and solving coding challenges.
+- Python
+- Django
+- SQL
+- HTML5
+- CSS3
+- JavaScript
+- Git
+- GitHub
 
-⭐ **If you found this project helpful, consider giving it a Star!**
+Currently improving Data Structures & Algorithms while building real-world full-stack projects.
+
+---
+
+# 📄 License
+
+This project is created for learning and portfolio purposes.
 
 ---
 
 <p align="center">
 
-Made with ❤️ using <strong>Python</strong>, <strong>Django</strong> & <strong>JavaScript</strong>
+⭐ If you found this project useful, consider giving it a Star.
+
+Made with ❤️ using Python, Django & JavaScript.
 
 </p>
