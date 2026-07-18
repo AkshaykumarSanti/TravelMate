@@ -89,7 +89,7 @@ TravelMate is a full-stack travel planning web application developed using Djang
 ## 🏠 Home Page
 
 <p align="center">
-<img src="screenshots/home-dashboard.png" width="900">
+<img src="Screenshots/home-dashboard.png" width="900">
 </p>
 
 ---
@@ -98,14 +98,14 @@ TravelMate is a full-stack travel planning web application developed using Djang
 
 | Sign Up | Login |
 |----------|--------|
-| <img src="screenshots/signup.png"> | <img src="screenshots/login.png"> |
+| <img src="Screenshots/signup.png"> | <img src="Screenshots/login.png"> |
 
 ---
 
 ## 🌍 Destinations
 
 <p align="center">
-<img src="screenshots/destinations.png" width="900">
+<img src="Screenshots/destinations.png" width="900">
 </p>
 
 ---
@@ -113,7 +113,7 @@ TravelMate is a full-stack travel planning web application developed using Djang
 ## 🏨 Hotels & Villas
 
 <p align="center">
-<img src="screenshots/hotels.png" width="900">
+<img src="Screenshots/hotels.png" width="900">
 </p>
 
 ---
@@ -121,9 +121,9 @@ TravelMate is a full-stack travel planning web application developed using Djang
 ## 📋 Dashboard
 
 <p align="center">
-<img src="screenshots/dashboard-1.png" width="280">
-<img src="screenshots/dashboard-2.png" width="280">
-<img src="screenshots/dashboard-3.png" width="280">
+<img src="Screenshots/dashboard-1.png" width="280">
+<img src="Screenshots/dashboard-2.png" width="280">
+<img src="Screenshots/dashboard-3.png" width="280">
 </p>
 
 ---
