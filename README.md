@@ -295,7 +295,7 @@ Through this project, I gained practical experience in:
 
 🎯 CGPA: **9.15**
 
-💻 Aspiring Software Developer passionate about Python, Django, SQL, and Full-Stack Web Development.
+💻 Aspiring Software Developer passionate about Python, Django, SQL and Full-Stack Web Development.
 
 ### Technical Skills
 
